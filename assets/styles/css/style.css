@@ -119,15 +119,15 @@ ul li {
 
 header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
+  grid-gap: 25px;
   border-bottom: 1px dashed #ddd;
  
   grid-area: header; /* header spans full columns */ 
 }
 
 header p i {
-  vertical-align: middle;
+  vertical-align:middle;
 	padding-right: 10px;
 }
 
